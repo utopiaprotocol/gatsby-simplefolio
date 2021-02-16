@@ -9,10 +9,10 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'samtech',
+  name: 'Samantha Fernandez',
+  subtitle: 'Early Tech Career Coach',
+  cta: 'Welcome! Feeling lost? No worries, youre in the right place',
 };
 
 // ABOUT DATA
