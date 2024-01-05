@@ -26,9 +26,9 @@ const Projects = () => {
     <section id="projects">
       <Container>
         <div className="project-wrapper">
-          <Title title="Projects" />
+          <Title title="Properties" />
           {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id } = project;
+            const { title, info, info2, url, img, id } = project;
 
             return (
               <Row key={id}>
@@ -55,10 +55,10 @@ const Projects = () => {
                         className="cta-btn cta-btn--hero"
                         href={url || '#!'}
                       >
-                        See Live
+                        airbnb
                       </a>
 
-                      {repo && (
+                      {/* {repo && (
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
@@ -67,7 +67,7 @@ const Projects = () => {
                         >
                           Source Code
                         </a>
-                      )}
+                      )} */}
                     </div>
                   </Fade>
                 </Col>
