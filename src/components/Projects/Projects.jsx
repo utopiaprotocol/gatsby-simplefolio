@@ -28,7 +28,7 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Properties" />
           {projects.map((project) => {
-            const { title, info, info2, url, img, id } = project;
+            const { title, info, info2, url, img, id, maps } = project;
 
             return (
               <Row key={id}>
@@ -49,25 +49,26 @@ const Projects = () => {
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
-                      <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="cta-btn cta-btn--hero"
-                        href={url || '#!'}
-                      >
-                        airbnb
-                      </a>
-
-                      {/* {repo && (
+                      {url && (
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="cta-btn text-color-main"
-                          href={repo}
+                          className="cta-btn cta-btn--hero"
+                          href={url || '#!'}
                         >
-                          Source Code
+                          airbnb
                         </a>
-                      )} */}
+                      )}{' '}
+                      {maps && (
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="cta-btn cta-btn--hero"
+                          href={maps}
+                        >
+                          maps
+                        </a>
+                      )}
                     </div>
                   </Fade>
                 </Col>

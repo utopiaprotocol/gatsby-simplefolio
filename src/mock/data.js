@@ -30,17 +30,25 @@ export const projectsData = [
     id: nanoid(),
     img: 'Lantana Street View.png',
     title: '129 Sterns St, FL',
-    info: 'Relax with the whole family at this 2 bedroom 1 bathroom home with a large fenced yard, and plenty of room for everyone. Less than a mile to the beach, even closer to Ocean Avenue, shops, restaurants, boat launch, and parks.',
+    info: `
+    Relax with the whole family at this 2 bedroom 1 bathroom home with a large fenced yard, and plenty of room for everyone.
+    Less than a mile to the beach, even closer to Ocean Avenue, shops, restaurants, boat launch, and parks.
+    `,
     info2: '',
     url: 'https://www.airbnb.com/rooms/596950728617166822',
+    maps: 'https://g.page/r/CfQwagRDSAEqEBM',
   },
   {
     id: nanoid(),
     img: 'New Hyde Park Street View.png',
     title: '1210 5th Ave, NY',
-    info: '',
+    info: `
+    This 3 bedroom 2 bathroom house offers an excellent location.
+    A 2 minute walk to the Long Island Railroad (LIRR) for an 8-minute ride to Jamaica station.
+    Only a 5-minute walk to Jericho Turnpike offering shops and restaurants.
+    The house is in a quiet Long Island village with easy access to all local amenities.
+    `,
     info2: '',
-    url: '',
   },
   // {
   //   id: nanoid(),
@@ -58,6 +66,7 @@ export const contactData = {
   cta: ' ',
   btn: '',
   email: 'utopiaprotocol@gmail.com',
+  review: 'https://g.page/r/CfQwagRDSAEqEBM/review',
 };
 
 // FOOTER DATA
